@@ -25,7 +25,7 @@ func createEnumNamesAndCases() -> [FontCase] {
     var fontData = [FontCase]()
     for family  in UIFont.familyNames where UIFont.fontNames(forFamilyName: family).count > 0 {
         fontData += [FontCase.family(family)]
-        
+
         for font in UIFont.fontNames(forFamilyName: family) {
             fontData += [FontCase.name(font.enumified, font)]
         }
@@ -57,7 +57,7 @@ func makeTestCases(with fonts: [FontCase]) -> String {
                 "    XCTAssert(UIFont(font: ." + enumName + ", size: 12.0) != nil," +
                 " \"Font \\\"\(fontString)\\\" can not be found.\")" +
             "\n}"
-            
+
         default:
             return nil
         }
