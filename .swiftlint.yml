@@ -1,0 +1,16 @@
+disabled_rules: 
+  - cyclomatic_complexity
+  - compiler_protocol_init
+  - force_cast
+  - colon
+  - comma
+  - control_statement
+opt_in_rules:
+  - empty_count
+included: 
+  - UIFontComplete
+line_length: 150
+file_length:
+  warning: 500
+  error: 1200
+reporter: "xcode" 
