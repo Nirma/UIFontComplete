@@ -1,6 +1,6 @@
 # UIFontComplete
 [![Build Status](https://travis-ci.org/Nirma/UIFontComplete.svg?branch=master)](https://travis-ci.org/Nirma/UIFontComplete)
-![Swift 3.0.x](https://img.shields.io/badge/Swift-3.0.1-orange.svg)
+![Swift 3.1.0](https://img.shields.io/badge/Swift-3.1.0-orange.svg)
 ![CodeCov](https://img.shields.io/codecov/c/github/Nirma/UIFontComplete.svg)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIFontComplete.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
