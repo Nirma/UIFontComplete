@@ -28,6 +28,12 @@ You can now simply start typing the name of the font enum and let code completio
 let font = UIFont(font: .arialBoldItalicMT, size: 12.0)
 ```
 
+There is also a handy (and way cooler) extension to the `Font` enumeration that allows the creation of `UIFont` objects with a certain size like so:
+
+```swift
+let myFont = Font.helvetica.of(size: 12.0)
+```
+
 ## Installation
 
 #### Carthage
