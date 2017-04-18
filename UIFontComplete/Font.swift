@@ -397,4 +397,15 @@ public enum Font: String {
     case bodoniSvtyTwoOSITCTTBook = "BodoniSvtyTwoOSITCTT-Book"
     case bodoniSvtyTwoOSITCTTBold = "BodoniSvtyTwoOSITCTT-Bold"
     case bodoniSvtyTwoOSITCTTBookIt = "BodoniSvtyTwoOSITCTT-BookIt"
+
+    /// An alternative way to get a particular `UIFont` instance from a `Font`
+    /// value.
+    ///
+    /// - parameter of size: The desired size of the font.
+    ///
+    /// - returns a `UIFont` instance of the desired font family and size, or
+    /// `nil` if the font family or size isn't installed.
+    public func of(size: CGFloat) -> UIFont? {
+        return UIFont(name: rawValue, size: size)
+    }
 }
