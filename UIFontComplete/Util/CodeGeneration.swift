@@ -23,7 +23,7 @@ enum FontCase {
 
 func createEnumNamesAndCases() -> [FontCase] {
     var fontData = [FontCase]()
-    for family  in UIFont.familyNames where UIFont.fontNames(forFamilyName: family).count > 0 {
+    for family  in UIFont.familyNames where !UIFont.fontNames(forFamilyName: family).isEmpty {
         fontData += [FontCase.family(family)]
 
         for font in UIFont.fontNames(forFamilyName: family) {
