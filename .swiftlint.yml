@@ -10,6 +10,7 @@ opt_in_rules:
   - empty_count
 included: 
   - UIFontComplete
+  - UIFontCompleteTests      
 line_length: 150
 file_length:
   warning: 500
