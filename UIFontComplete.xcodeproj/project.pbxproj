@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136122C61EB2AD3E009F45E4 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136122C51EB2AD3E009F45E4 /* FontRepresentable.swift */; };
 		AAE1A29D1E02618D00610C40 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE1A2931E02618D00610C40 /* UIFontComplete.framework */; };
 		AAE1A2A21E02618D00610C40 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */; };
 		AAE1A2A41E02618D00610C40 /* UIFontComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1A2961E02618D00610C40 /* UIFontComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136122C51EB2AD3E009F45E4 /* FontRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontRepresentable.swift; sourceTree = "<group>"; };
 		AAE1A2931E02618D00610C40 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE1A2961E02618D00610C40 /* UIFontComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete.h; sourceTree = "<group>"; };
 		AAE1A2971E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136122C41EB2AD2A009F45E4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				136122C51EB2AD3E009F45E4 /* FontRepresentable.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
 		AAE1A2891E02618D00610C40 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				AAE1A2B61E027F4B00610C40 /* Supporting */,
+				136122C41EB2AD2A009F45E4 /* Protocol */,
 				AAE1A2B51E027F3A00610C40 /* Enums */,
 				AAE1A2B41E027F1A00610C40 /* Extensions */,
 				AAE1A2B11E027E5600610C40 /* Util */,
@@ -238,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE1A2B01E0261F600610C40 /* UIFont+Extension.swift in Sources */,
+				136122C61EB2AD3E009F45E4 /* FontRepresentable.swift in Sources */,
 				AAE1A2AE1E0261B200610C40 /* Font.swift in Sources */,
 				AAE1A2B31E027E8100610C40 /* CodeGeneration.swift in Sources */,
 			);
