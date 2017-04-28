@@ -34,6 +34,22 @@ There is also a handy (and way cooler) extension to the `Font` enumeration that 
 let myFont = Font.helvetica.of(size: 12.0)
 ```
 
+### What about Custom Fonts?
+Custom Fonts can be added with the help of the `FontRepresentable` protocol.
+Simply create your own `CustomFont` `String` based enumeration that adapts the 
+`FontRepresentable` and add a case per font that you want to add like so:
+
+```swift
+// In your project using custom fonts
+
+enum CustomFont: String, FontRepresentable {
+    case alexBrushRegular = "AlexBrush-Regular"
+}
+
+CustomFont.alexBrushRegular.of(size: 12.0) // => UIFont
+```
+
+
 ## Installation
 
 #### Carthage
