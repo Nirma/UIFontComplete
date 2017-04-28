@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIFontComplete'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Make working with UIFont faster and less error-prone'
  
   s.description      = <<-DESC
