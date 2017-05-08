@@ -6,13 +6,11 @@ disabled_rules:
   - colon
   - comma
   - control_statement
+  - file_length
 opt_in_rules:
   - empty_count
 included: 
   - UIFontComplete
   - UIFontCompleteTests      
-line_length: 150
-file_length:
-  warning: 500
-  error: 1200
+line_length: 180
 reporter: "xcode" 
