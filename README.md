@@ -1,6 +1,6 @@
 # UIFontComplete
 [![Build Status](https://travis-ci.org/Nirma/UIFontComplete.svg?branch=master)](https://travis-ci.org/Nirma/UIFontComplete)
-![Swift 3.1.0](https://img.shields.io/badge/Swift-3.1.0-orange.svg)
+![Swift 3.1.1](https://img.shields.io/badge/Swift-3.1.1-orange.svg)
 ![CodeCov](https://img.shields.io/codecov/c/github/Nirma/UIFontComplete.svg)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIFontComplete.svg)](#cocoapods)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/UIFontComplete.svg)]()
@@ -10,8 +10,9 @@
 Make working with `UIFont` faster and less error-prone
 
 ## Usage 
-This library is simply one extension to `UIFont` and one `Font` `enum` with a case for each standard installed font on iOS. 
 No more muddling around searching for names of `UIFont` types and no more surprises at runtime if a font name was mistyped.
+This library is simply one extension to `UIFont` and one `Font` `enum` with a case for each system font on iOS. 
+Custom font support is also available, please keep reading for details!
 
 Instead of the `String` base constructor for `UIFont`:
 
@@ -28,7 +29,7 @@ You can now simply start typing the name of the font enum and let code completio
 let font = UIFont(font: .arialBoldItalicMT, size: 12.0)
 ```
 
-There is also a handy (and way cooler) extension to the `Font` enumeration that allows the creation of `UIFont` objects with a certain size like so:
+There is also a handy (and way cooler) extension to the `Font` enumeration that allows the creation of `UIFont` objects with a specified size like so:
 
 ```swift
 let myFont = Font.helvetica.of(size: 12.0)
