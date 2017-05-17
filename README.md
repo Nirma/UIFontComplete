@@ -10,11 +10,11 @@
 Make working with `UIFont` faster and less error-prone
 
 ## Usage 
-No more muddling around searching for names of `UIFont` types and no more surprises at runtime if a font name was mistyped.
+No more wasting time searching for names of `UIFont` fonts and no more surprises at runtime if a font name was mistyped.
 This library is simply one extension to `UIFont` and one `Font` `enum` with a case for each system font on iOS. 
 Custom font support is also available, please keep reading for details!
 
-Instead of the `String` base constructor for `UIFont`:
+Instead of using the `String` based constructor native to `UIFont`:
 
 ```swift
 let font = UIFont(name: "Arial-BoldItalicMT", size: 12.0)
@@ -24,15 +24,19 @@ You can now simply start typing the name of the font enum and let code completio
 
 ![](http://i.imgur.com/yBYRQVB.gif)
 
-
-```swift
-let font = UIFont(font: .arialBoldItalicMT, size: 12.0)
+This library currently provides two different options for creating `UIFont` objects.
+The first is calling the font name off of the provided `Font` enumeration and then calling `of(size:)`
+to provide the desired size.
+ 
+```swif
+let myFont = Font.helvetica.of(size: 12.0)
 ```
 
-There is also a handy (and way cooler) extension to the `Font` enumeration that allows the creation of `UIFont` objects with a specified size like so:
-
+The other `UIFont` creation method offered by this library is similar to the normal `UIFont`
+constructor except that instead of providing a `String` of the desired font, a case of the `Font` enum is provided instead.
+ 
 ```swift
-let myFont = Font.helvetica.of(size: 12.0)
+let font = UIFont(font: .arialBoldItalicMT, size: 12.0)
 ```
 
 ### What about Custom Fonts?
