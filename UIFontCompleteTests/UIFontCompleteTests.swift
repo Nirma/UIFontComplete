@@ -1016,7 +1016,13 @@ class UIFontCompleteTests: XCTestCase {
         XCTAssert(UIFont(font: .bodoniSvtyTwoOSITCTTBookIt, size: 12.0) != nil, "Font \"BodoniSvtyTwoOSITCTT-BookIt\" can not be found.")
     }
 
-    func testOfSize() {
-        XCTAssertNotNil(Font.helvetica.of(size: 12.0))
+    func testOfSizeCGFloat() {
+        let testValue: CGFloat = 12.0
+        XCTAssertNotNil(Font.helvetica.of(size: testValue))
+    }
+
+    func testOfSizeDouble() {
+        let testValue: Double = 12.0
+        XCTAssertNotNil(Font.helvetica.of(size: testValue))
     }
 }
