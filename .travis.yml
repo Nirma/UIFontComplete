@@ -4,6 +4,6 @@ xcode_project: UIFontComplete.xcodeproj # path to your xcodeproj folder
 xcode_scheme: UIFontComplete
 
 script:
-  - xcodebuild test -scheme UIFontComplete -sdk iphonesimulator -destination 'OS=10.3,name=iPhone 7 Plus'
+  - xcodebuild test -scheme UIFontComplete -sdk iphonesimulator -destination 'OS=10.3.1,name=iPhone 7 Plus'
 after_success:
   - bash <(curl -s https://codecov.io/bash)
