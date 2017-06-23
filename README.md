@@ -77,6 +77,11 @@ UIFontComplete to your `Podfile`:
 pod 'UIFontComplete'
 ```
 
+## Swift 4 Support
+Swift 4 support is currently being tracked by the branch `swift_4` on this repository.
+
+[XCode 9 and Swift 4 support #20](https://github.com/Nirma/UIFontComplete/pull/20)
+
 ## Requirements
 
 * Xcode 8.0
