@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		136122C61EB2AD3E009F45E4 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136122C51EB2AD3E009F45E4 /* FontRepresentable.swift */; };
+		AA813B581F0092450096ABBD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B551F0092450096ABBD /* Font.swift */; };
+		AA813B591F0092450096ABBD /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
+		AA813B5A1F0092450096ABBD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
 		AAE1A29D1E02618D00610C40 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE1A2931E02618D00610C40 /* UIFontComplete.framework */; };
 		AAE1A2A21E02618D00610C40 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */; };
 		AAE1A2A41E02618D00610C40 /* UIFontComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1A2961E02618D00610C40 /* UIFontComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAE1A2AE1E0261B200610C40 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2AD1E0261B200610C40 /* Font.swift */; };
-		AAE1A2B01E0261F600610C40 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2AF1E0261F600610C40 /* UIFont+Extension.swift */; };
 		AAE1A2B31E027E8100610C40 /* CodeGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2B21E027E8100610C40 /* CodeGeneration.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,15 +27,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		136122C51EB2AD3E009F45E4 /* FontRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontRepresentable.swift; sourceTree = "<group>"; };
+		AA813B551F0092450096ABBD /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Sources/Font.swift; sourceTree = SOURCE_ROOT; };
+		AA813B561F0092450096ABBD /* FontRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontRepresentable.swift; path = Sources/FontRepresentable.swift; sourceTree = SOURCE_ROOT; };
+		AA813B571F0092450096ABBD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "Sources/UIFont+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		AAE1A2931E02618D00610C40 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE1A2961E02618D00610C40 /* UIFontComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete.h; sourceTree = "<group>"; };
 		AAE1A2971E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE1A29C1E02618D00610C40 /* UIFontCompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFontCompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontCompleteTests.swift; sourceTree = "<group>"; };
 		AAE1A2A31E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAE1A2AD1E0261B200610C40 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		AAE1A2AF1E0261F600610C40 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		AAE1A2B21E027E8100610C40 /* CodeGeneration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeGeneration.swift; path = Util/CodeGeneration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,12 +58,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		136122C41EB2AD2A009F45E4 /* Protocol */ = {
+		136122C41EB2AD2A009F45E4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				136122C51EB2AD3E009F45E4 /* FontRepresentable.swift */,
+				AA813B551F0092450096ABBD /* Font.swift */,
+				AA813B561F0092450096ABBD /* FontRepresentable.swift */,
 			);
-			name = Protocol;
+			name = Sources;
 			sourceTree = "<group>";
 		};
 		AAE1A2891E02618D00610C40 = {
@@ -88,8 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				AAE1A2B61E027F4B00610C40 /* Supporting */,
-				136122C41EB2AD2A009F45E4 /* Protocol */,
-				AAE1A2B51E027F3A00610C40 /* Enums */,
+				136122C41EB2AD2A009F45E4 /* Sources */,
 				AAE1A2B41E027F1A00610C40 /* Extensions */,
 				AAE1A2B11E027E5600610C40 /* Util */,
 			);
@@ -116,17 +116,9 @@
 		AAE1A2B41E027F1A00610C40 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AAE1A2AF1E0261F600610C40 /* UIFont+Extension.swift */,
+				AA813B571F0092450096ABBD /* UIFont+Extension.swift */,
 			);
 			name = Extensions;
-			sourceTree = "<group>";
-		};
-		AAE1A2B51E027F3A00610C40 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				AAE1A2AD1E0261B200610C40 /* Font.swift */,
-			);
-			name = Enums;
 			sourceTree = "<group>";
 		};
 		AAE1A2B61E027F4B00610C40 /* Supporting */ = {
@@ -248,9 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE1A2B01E0261F600610C40 /* UIFont+Extension.swift in Sources */,
-				136122C61EB2AD3E009F45E4 /* FontRepresentable.swift in Sources */,
-				AAE1A2AE1E0261B200610C40 /* Font.swift in Sources */,
+				AA813B591F0092450096ABBD /* FontRepresentable.swift in Sources */,
+				AA813B581F0092450096ABBD /* Font.swift in Sources */,
+				AA813B5A1F0092450096ABBD /* UIFont+Extension.swift in Sources */,
 				AAE1A2B31E027E8100610C40 /* CodeGeneration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
