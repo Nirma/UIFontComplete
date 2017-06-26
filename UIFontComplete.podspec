@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIFontComplete'
-  s.version          = '0.4.0'
+  s.version          = '1.0.0'
   s.summary          = 'Make working with UIFont faster and less error-prone'
  
   s.description      = <<-DESC
@@ -18,6 +18,6 @@ make runtime crashes due to font name typos near impossible!
   s.source           = { :git => 'https://github.com/Nirma/UIFontComplete.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '9.0'
-  s.source_files = 'UIFontComplete/*.swift'
+  s.source_files = 'Sources/*.swift'
  
 end
