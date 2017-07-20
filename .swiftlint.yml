@@ -1,5 +1,4 @@
 disabled_rules: 
-  - type_body_length      
   - cyclomatic_complexity
   - compiler_protocol_init
   - force_cast
