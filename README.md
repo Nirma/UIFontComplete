@@ -12,7 +12,7 @@
 Make working with `UIFont` faster and less error-prone
 
 ## Usage 
-No more wasting time searching for names of `UIFont` fonts and no more surprises at runtime if a font name was mistyped.
+No more wasted time searching for names of `UIFont` fonts and no more surprises at runtime if a font name was mistyped.
 This library is simply one extension to `UIFont` and one `Font` `enum` with a case for each system font on iOS. 
 Custom font support is also available, please keep reading for details!
 
