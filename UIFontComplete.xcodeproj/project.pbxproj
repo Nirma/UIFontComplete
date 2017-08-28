@@ -11,8 +11,8 @@
 		AA813B591F0092450096ABBD /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
 		AA813B5A1F0092450096ABBD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
 		AAE1A29D1E02618D00610C40 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE1A2931E02618D00610C40 /* UIFontComplete.framework */; };
-		AAE1A2A21E02618D00610C40 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */; };
 		AAE1A2A41E02618D00610C40 /* UIFontComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1A2961E02618D00610C40 /* UIFontComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAED536C1F53EEA7009C874C /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,8 @@
 		AAE1A2961E02618D00610C40 /* UIFontComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete.h; sourceTree = "<group>"; };
 		AAE1A2971E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE1A29C1E02618D00610C40 /* UIFontCompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFontCompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontCompleteTests.swift; sourceTree = "<group>"; };
 		AAE1A2A31E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontCompleteTests.swift; path = Tests/UIFontCompleteTests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		AAE1A2A01E02618D00610C40 /* UIFontCompleteTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */,
+				AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */,
 				AAE1A2A31E02618D00610C40 /* Info.plist */,
 			);
 			path = UIFontCompleteTests;
@@ -185,6 +185,7 @@
 					};
 					AAE1A29B1E02618D00610C40 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -239,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE1A2A21E02618D00610C40 /* UIFontCompleteTests.swift in Sources */,
+				AAED536C1F53EEA7009C874C /* UIFontCompleteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UIFontCompleteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fontComplete.UIFontCompleteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -411,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UIFontCompleteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
