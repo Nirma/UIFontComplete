@@ -13,7 +13,6 @@
 		AAE1A29D1E02618D00610C40 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE1A2931E02618D00610C40 /* UIFontComplete.framework */; };
 		AAE1A2A21E02618D00610C40 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */; };
 		AAE1A2A41E02618D00610C40 /* UIFontComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1A2961E02618D00610C40 /* UIFontComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAE1A2B31E027E8100610C40 /* CodeGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1A2B21E027E8100610C40 /* CodeGeneration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		AAE1A29C1E02618D00610C40 /* UIFontCompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFontCompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE1A2A11E02618D00610C40 /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontCompleteTests.swift; sourceTree = "<group>"; };
 		AAE1A2A31E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAE1A2B21E027E8100610C40 /* CodeGeneration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeGeneration.swift; path = Util/CodeGeneration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,6 @@
 				AAE1A2B61E027F4B00610C40 /* Supporting */,
 				136122C41EB2AD2A009F45E4 /* Sources */,
 				AAE1A2B41E027F1A00610C40 /* Extensions */,
-				AAE1A2B11E027E5600610C40 /* Util */,
 			);
 			path = UIFontComplete;
 			sourceTree = "<group>";
@@ -103,14 +100,6 @@
 				AAE1A2A31E02618D00610C40 /* Info.plist */,
 			);
 			path = UIFontCompleteTests;
-			sourceTree = "<group>";
-		};
-		AAE1A2B11E027E5600610C40 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				AAE1A2B21E027E8100610C40 /* CodeGeneration.swift */,
-			);
-			name = Util;
 			sourceTree = "<group>";
 		};
 		AAE1A2B41E027F1A00610C40 /* Extensions */ = {
@@ -243,7 +232,6 @@
 				AA813B591F0092450096ABBD /* FontRepresentable.swift in Sources */,
 				AA813B581F0092450096ABBD /* Font.swift in Sources */,
 				AA813B5A1F0092450096ABBD /* UIFont+Extension.swift in Sources */,
-				AAE1A2B31E027E8100610C40 /* CodeGeneration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
