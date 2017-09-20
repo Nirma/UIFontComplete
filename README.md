@@ -1,6 +1,6 @@
 # UIFontComplete
 [![Build Status](https://travis-ci.org/Nirma/UIFontComplete.svg?branch=master)](https://travis-ci.org/Nirma/UIFontComplete)
-![Swift 3.1](https://img.shields.io/badge/Swift-3.1.1-orange.svg)
+![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg)
 ![CodeCov](https://img.shields.io/codecov/c/github/Nirma/UIFontComplete.svg)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIFontComplete.svg)](#cocoapods)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/UIFontComplete.svg)]()
@@ -78,15 +78,10 @@ UIFontComplete to your `Podfile`:
 pod 'UIFontComplete'
 ```
 
-## Swift 4 Support
-Swift 4 support is currently being tracked by the branch `swift_4` on this repository.
-
-[XCode 9 and Swift 4 support #20](https://github.com/Nirma/UIFontComplete/pull/20)
-
 ## Requirements
 
-* Xcode 8.0
-* Swift 3.0+
+* Xcode 9.0
+* Swift 4.0+
 
 ## Contribution and Maintenance 
 Fonts available on iOS are surely subject to possible change,
