@@ -83,10 +83,9 @@ pod 'UIFontComplete'
 * Xcode 9.0
 * Swift 4.0+
 
-## Contribution and Maintenance 
-Fonts available on iOS are surely subject to possible change,
-and when they do the `Font` enum in this library will need to be updated as well.
-If you would like to help maintain or improve this library please feel free to do so. 
+## Contributing to UIFontComplete
+**Pull Requests are Welcome!**
+If you feel that this library could be made better then please do so by sending over a pull request! 
 
 ## License
 
