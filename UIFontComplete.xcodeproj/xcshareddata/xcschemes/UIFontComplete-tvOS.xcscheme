@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAE1A2921E02618D00610C40"
-               BuildableName = "UIFontComplete.framework"
-               BlueprintName = "UIFontComplete"
+               BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+               BuildableName = "UIFontComplete_tvOS.framework"
+               BlueprintName = "UIFontComplete-tvOS"
                ReferencedContainer = "container:UIFontComplete.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,16 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAE1A29B1E02618D00610C40"
-               BuildableName = "UIFontCompleteTests.xctest"
-               BlueprintName = "UIFontCompleteTests"
+               BlueprintIdentifier = "4E4C4E881FFA0D9400058722"
+               BuildableName = "UIFontComplete-tvOSTests.xctest"
+               BlueprintName = "UIFontComplete-tvOSTests"
                ReferencedContainer = "container:UIFontComplete.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAE1A2921E02618D00610C40"
-            BuildableName = "UIFontComplete.framework"
-            BlueprintName = "UIFontComplete"
+            BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+            BuildableName = "UIFontComplete_tvOS.framework"
+            BlueprintName = "UIFontComplete-tvOS"
             ReferencedContainer = "container:UIFontComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAE1A2921E02618D00610C40"
-            BuildableName = "UIFontComplete.framework"
-            BlueprintName = "UIFontComplete"
+            BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+            BuildableName = "UIFontComplete_tvOS.framework"
+            BlueprintName = "UIFontComplete-tvOS"
             ReferencedContainer = "container:UIFontComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAE1A2921E02618D00610C40"
-            BuildableName = "UIFontComplete.framework"
-            BlueprintName = "UIFontComplete"
+            BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+            BuildableName = "UIFontComplete_tvOS.framework"
+            BlueprintName = "UIFontComplete-tvOS"
             ReferencedContainer = "container:UIFontComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
