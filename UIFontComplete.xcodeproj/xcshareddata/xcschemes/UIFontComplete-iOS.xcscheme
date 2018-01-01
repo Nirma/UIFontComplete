@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+               BlueprintIdentifier = "4E6A41E61FFA95CF00DC7D56"
                BuildableName = "UIFontComplete.framework"
-               BlueprintName = "UIFontComplete-tvOS"
+               BlueprintName = "UIFontComplete-iOS"
                ReferencedContainer = "container:UIFontComplete.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E4C4E881FFA0D9400058722"
-               BuildableName = "UIFontComplete-tvOSTests.xctest"
-               BlueprintName = "UIFontComplete-tvOSTests"
+               BlueprintIdentifier = "4E6A41EE1FFA95CF00DC7D56"
+               BuildableName = "UIFontComplete-iOSTests.xctest"
+               BlueprintName = "UIFontComplete-iOSTests"
                ReferencedContainer = "container:UIFontComplete.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+            BlueprintIdentifier = "4E6A41E61FFA95CF00DC7D56"
             BuildableName = "UIFontComplete.framework"
-            BlueprintName = "UIFontComplete-tvOS"
+            BlueprintName = "UIFontComplete-iOS"
             ReferencedContainer = "container:UIFontComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,9 +67,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+            BlueprintIdentifier = "4E6A41E61FFA95CF00DC7D56"
             BuildableName = "UIFontComplete.framework"
-            BlueprintName = "UIFontComplete-tvOS"
+            BlueprintName = "UIFontComplete-iOS"
             ReferencedContainer = "container:UIFontComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,9 +85,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E4C4E801FFA0D9400058722"
+            BlueprintIdentifier = "4E6A41E61FFA95CF00DC7D56"
             BuildableName = "UIFontComplete.framework"
-            BlueprintName = "UIFontComplete-tvOS"
+            BlueprintName = "UIFontComplete-iOS"
             ReferencedContainer = "container:UIFontComplete.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

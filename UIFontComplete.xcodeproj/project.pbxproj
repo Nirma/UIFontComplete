@@ -18,7 +18,6 @@
 		4E6A41FE1FFA967900DC7D56 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B551F0092450096ABBD /* Font.swift */; };
 		4E6A41FF1FFA967D00DC7D56 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
 		4E6A42001FFA968100DC7D56 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
-		4E6A42011FFA96B500DC7D56 /* UIFontComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1A2961E02618D00610C40 /* UIFontComplete.h */; };
 		4E6A42031FFA96D700DC7D56 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +53,6 @@
 		AA813B551F0092450096ABBD /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Sources/Font.swift; sourceTree = SOURCE_ROOT; };
 		AA813B561F0092450096ABBD /* FontRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontRepresentable.swift; path = Sources/FontRepresentable.swift; sourceTree = SOURCE_ROOT; };
 		AA813B571F0092450096ABBD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "Sources/UIFont+Extension.swift"; sourceTree = SOURCE_ROOT; };
-		AAE1A2961E02618D00610C40 /* UIFontComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete.h; sourceTree = "<group>"; };
-		AAE1A2971E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE1A2A31E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontCompleteTests.swift; path = Tests/UIFontCompleteTests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -165,7 +162,6 @@
 		AAE1A2951E02618D00610C40 /* UIFontComplete */ = {
 			isa = PBXGroup;
 			children = (
-				AAE1A2B61E027F4B00610C40 /* Supporting */,
 				136122C41EB2AD2A009F45E4 /* Sources */,
 				AAE1A2B41E027F1A00610C40 /* Extensions */,
 			);
@@ -189,15 +185,6 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		AAE1A2B61E027F4B00610C40 /* Supporting */ = {
-			isa = PBXGroup;
-			children = (
-				AAE1A2961E02618D00610C40 /* UIFontComplete.h */,
-				AAE1A2971E02618D00610C40 /* Info.plist */,
-			);
-			name = Supporting;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -213,7 +200,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6A42011FFA96B500DC7D56 /* UIFontComplete.h in Headers */,
 				4E6A41F71FFA95CF00DC7D56 /* UIFontComplete_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +517,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "UIFontComplete-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-iOS";
 				PRODUCT_NAME = UIFontComplete;
@@ -556,7 +542,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "UIFontComplete-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-iOS";
 				PRODUCT_NAME = UIFontComplete;
