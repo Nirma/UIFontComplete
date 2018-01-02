@@ -7,49 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA813B581F0092450096ABBD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B551F0092450096ABBD /* Font.swift */; };
-		AA813B591F0092450096ABBD /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
-		AA813B5A1F0092450096ABBD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
-		AAE1A29D1E02618D00610C40 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE1A2931E02618D00610C40 /* UIFontComplete.framework */; };
-		AAE1A2A41E02618D00610C40 /* UIFontComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1A2961E02618D00610C40 /* UIFontComplete.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAED536C1F53EEA7009C874C /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */; };
+		4E4C4E8A1FFA0D9400058722 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4C4E811FFA0D9400058722 /* UIFontComplete.framework */; };
+		4E4C4E8F1FFA0D9400058722 /* UIFontComplete_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C4E8E1FFA0D9400058722 /* UIFontComplete_tvOSTests.swift */; };
+		4E4C4E911FFA0D9400058722 /* UIFontComplete_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C4E831FFA0D9400058722 /* UIFontComplete_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4C4E981FFA7CDE00058722 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B551F0092450096ABBD /* Font.swift */; };
+		4E4C4E991FFA7CE500058722 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
+		4E6A41E11FFA942300DC7D56 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
+		4E6A41F01FFA95CF00DC7D56 /* UIFontComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6A41E71FFA95CF00DC7D56 /* UIFontComplete.framework */; };
+		4E6A41F71FFA95CF00DC7D56 /* UIFontComplete_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6A41E91FFA95CF00DC7D56 /* UIFontComplete_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6A41FE1FFA967900DC7D56 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B551F0092450096ABBD /* Font.swift */; };
+		4E6A41FF1FFA967D00DC7D56 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
+		4E6A42001FFA968100DC7D56 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
+		4E6A42031FFA96D700DC7D56 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AAE1A29E1E02618D00610C40 /* PBXContainerItemProxy */ = {
+		4E4C4E8B1FFA0D9400058722 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AAE1A28A1E02618D00610C40 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAE1A2921E02618D00610C40;
-			remoteInfo = UIFontComplete;
+			remoteGlobalIDString = 4E4C4E801FFA0D9400058722;
+			remoteInfo = "UIFontComplete-tvOS";
+		};
+		4E6A41F11FFA95CF00DC7D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE1A28A1E02618D00610C40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6A41E61FFA95CF00DC7D56;
+			remoteInfo = "UIFontComplete-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E4C4E811FFA0D9400058722 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4C4E831FFA0D9400058722 /* UIFontComplete_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete_tvOS.h; sourceTree = "<group>"; };
+		4E4C4E841FFA0D9400058722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4C4E891FFA0D9400058722 /* UIFontComplete-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIFontComplete-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4C4E8E1FFA0D9400058722 /* UIFontComplete_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontComplete_tvOSTests.swift; sourceTree = "<group>"; };
+		4E4C4E901FFA0D9400058722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6A41E71FFA95CF00DC7D56 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6A41E91FFA95CF00DC7D56 /* UIFontComplete_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete_iOS.h; sourceTree = "<group>"; };
+		4E6A41EA1FFA95CF00DC7D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6A41EF1FFA95CF00DC7D56 /* UIFontComplete-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIFontComplete-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6A41F61FFA95CF00DC7D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA813B551F0092450096ABBD /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Sources/Font.swift; sourceTree = SOURCE_ROOT; };
 		AA813B561F0092450096ABBD /* FontRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontRepresentable.swift; path = Sources/FontRepresentable.swift; sourceTree = SOURCE_ROOT; };
 		AA813B571F0092450096ABBD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "Sources/UIFont+Extension.swift"; sourceTree = SOURCE_ROOT; };
-		AAE1A2931E02618D00610C40 /* UIFontComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIFontComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE1A2961E02618D00610C40 /* UIFontComplete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFontComplete.h; sourceTree = "<group>"; };
-		AAE1A2971E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAE1A29C1E02618D00610C40 /* UIFontCompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFontCompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE1A2A31E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontCompleteTests.swift; path = Tests/UIFontCompleteTests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AAE1A28F1E02618D00610C40 /* Frameworks */ = {
+		4E4C4E7D1FFA0D9400058722 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAE1A2991E02618D00610C40 /* Frameworks */ = {
+		4E4C4E861FFA0D9400058722 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE1A29D1E02618D00610C40 /* UIFontComplete.framework in Frameworks */,
+				4E4C4E8A1FFA0D9400058722 /* UIFontComplete.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41E31FFA95CF00DC7D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41EC1FFA95CF00DC7D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6A41F01FFA95CF00DC7D56 /* UIFontComplete.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,11 +100,50 @@
 			name = Sources;
 			sourceTree = "<group>";
 		};
+		4E4C4E821FFA0D9400058722 /* UIFontComplete-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E4C4E831FFA0D9400058722 /* UIFontComplete_tvOS.h */,
+				4E4C4E841FFA0D9400058722 /* Info.plist */,
+			);
+			path = "UIFontComplete-tvOS";
+			sourceTree = "<group>";
+		};
+		4E4C4E8D1FFA0D9400058722 /* UIFontComplete-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4C4E8E1FFA0D9400058722 /* UIFontComplete_tvOSTests.swift */,
+				4E4C4E901FFA0D9400058722 /* Info.plist */,
+			);
+			path = "UIFontComplete-tvOSTests";
+			sourceTree = "<group>";
+		};
+		4E6A41E81FFA95CF00DC7D56 /* UIFontComplete-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E6A41E91FFA95CF00DC7D56 /* UIFontComplete_iOS.h */,
+				4E6A41EA1FFA95CF00DC7D56 /* Info.plist */,
+			);
+			path = "UIFontComplete-iOS";
+			sourceTree = "<group>";
+		};
+		4E6A41F31FFA95CF00DC7D56 /* UIFontComplete-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6A41F61FFA95CF00DC7D56 /* Info.plist */,
+			);
+			path = "UIFontComplete-iOSTests";
+			sourceTree = "<group>";
+		};
 		AAE1A2891E02618D00610C40 = {
 			isa = PBXGroup;
 			children = (
 				AAE1A2951E02618D00610C40 /* UIFontComplete */,
 				AAE1A2A01E02618D00610C40 /* UIFontCompleteTests */,
+				4E4C4E821FFA0D9400058722 /* UIFontComplete-tvOS */,
+				4E4C4E8D1FFA0D9400058722 /* UIFontComplete-tvOSTests */,
+				4E6A41E81FFA95CF00DC7D56 /* UIFontComplete-iOS */,
+				4E6A41F31FFA95CF00DC7D56 /* UIFontComplete-iOSTests */,
 				AAE1A2941E02618D00610C40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,8 +151,10 @@
 		AAE1A2941E02618D00610C40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAE1A2931E02618D00610C40 /* UIFontComplete.framework */,
-				AAE1A29C1E02618D00610C40 /* UIFontCompleteTests.xctest */,
+				4E4C4E811FFA0D9400058722 /* UIFontComplete.framework */,
+				4E4C4E891FFA0D9400058722 /* UIFontComplete-tvOSTests.xctest */,
+				4E6A41E71FFA95CF00DC7D56 /* UIFontComplete.framework */,
+				4E6A41EF1FFA95CF00DC7D56 /* UIFontComplete-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +162,6 @@
 		AAE1A2951E02618D00610C40 /* UIFontComplete */ = {
 			isa = PBXGroup;
 			children = (
-				AAE1A2B61E027F4B00610C40 /* Supporting */,
 				136122C41EB2AD2A009F45E4 /* Sources */,
 				AAE1A2B41E027F1A00610C40 /* Extensions */,
 			);
@@ -110,63 +185,98 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		AAE1A2B61E027F4B00610C40 /* Supporting */ = {
-			isa = PBXGroup;
-			children = (
-				AAE1A2961E02618D00610C40 /* UIFontComplete.h */,
-				AAE1A2971E02618D00610C40 /* Info.plist */,
-			);
-			name = Supporting;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AAE1A2901E02618D00610C40 /* Headers */ = {
+		4E4C4E7E1FFA0D9400058722 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE1A2A41E02618D00610C40 /* UIFontComplete.h in Headers */,
+				4E4C4E911FFA0D9400058722 /* UIFontComplete_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41E41FFA95CF00DC7D56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6A41F71FFA95CF00DC7D56 /* UIFontComplete_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AAE1A2921E02618D00610C40 /* UIFontComplete */ = {
+		4E4C4E801FFA0D9400058722 /* UIFontComplete-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAE1A2A71E02618D00610C40 /* Build configuration list for PBXNativeTarget "UIFontComplete" */;
+			buildConfigurationList = 4E4C4E921FFA0D9400058722 /* Build configuration list for PBXNativeTarget "UIFontComplete-tvOS" */;
 			buildPhases = (
-				AAE1A28E1E02618D00610C40 /* Sources */,
-				AAE1A28F1E02618D00610C40 /* Frameworks */,
-				AAE1A2901E02618D00610C40 /* Headers */,
-				AAE1A2911E02618D00610C40 /* Resources */,
+				4E4C4E7C1FFA0D9400058722 /* Sources */,
+				4E4C4E7D1FFA0D9400058722 /* Frameworks */,
+				4E4C4E7E1FFA0D9400058722 /* Headers */,
+				4E4C4E7F1FFA0D9400058722 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UIFontComplete;
-			productName = UIFontComplete;
-			productReference = AAE1A2931E02618D00610C40 /* UIFontComplete.framework */;
+			name = "UIFontComplete-tvOS";
+			productName = "UIFontComplete-tvOS";
+			productReference = 4E4C4E811FFA0D9400058722 /* UIFontComplete.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AAE1A29B1E02618D00610C40 /* UIFontCompleteTests */ = {
+		4E4C4E881FFA0D9400058722 /* UIFontComplete-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAE1A2AA1E02618D00610C40 /* Build configuration list for PBXNativeTarget "UIFontCompleteTests" */;
+			buildConfigurationList = 4E4C4E951FFA0D9400058722 /* Build configuration list for PBXNativeTarget "UIFontComplete-tvOSTests" */;
 			buildPhases = (
-				AAE1A2981E02618D00610C40 /* Sources */,
-				AAE1A2991E02618D00610C40 /* Frameworks */,
-				AAE1A29A1E02618D00610C40 /* Resources */,
+				4E4C4E851FFA0D9400058722 /* Sources */,
+				4E4C4E861FFA0D9400058722 /* Frameworks */,
+				4E4C4E871FFA0D9400058722 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAE1A29F1E02618D00610C40 /* PBXTargetDependency */,
+				4E4C4E8C1FFA0D9400058722 /* PBXTargetDependency */,
 			);
-			name = UIFontCompleteTests;
-			productName = UIFontCompleteTests;
-			productReference = AAE1A29C1E02618D00610C40 /* UIFontCompleteTests.xctest */;
+			name = "UIFontComplete-tvOSTests";
+			productName = "UIFontComplete-tvOSTests";
+			productReference = 4E4C4E891FFA0D9400058722 /* UIFontComplete-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E6A41E61FFA95CF00DC7D56 /* UIFontComplete-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6A41F81FFA95CF00DC7D56 /* Build configuration list for PBXNativeTarget "UIFontComplete-iOS" */;
+			buildPhases = (
+				4E6A41E21FFA95CF00DC7D56 /* Sources */,
+				4E6A41E31FFA95CF00DC7D56 /* Frameworks */,
+				4E6A41E41FFA95CF00DC7D56 /* Headers */,
+				4E6A41E51FFA95CF00DC7D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIFontComplete-iOS";
+			productName = "UIFontComplete-iOS";
+			productReference = 4E6A41E71FFA95CF00DC7D56 /* UIFontComplete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E6A41EE1FFA95CF00DC7D56 /* UIFontComplete-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6A41FB1FFA95CF00DC7D56 /* Build configuration list for PBXNativeTarget "UIFontComplete-iOSTests" */;
+			buildPhases = (
+				4E6A41EB1FFA95CF00DC7D56 /* Sources */,
+				4E6A41EC1FFA95CF00DC7D56 /* Frameworks */,
+				4E6A41ED1FFA95CF00DC7D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6A41F21FFA95CF00DC7D56 /* PBXTargetDependency */,
+			);
+			name = "UIFontComplete-iOSTests";
+			productName = "UIFontComplete-iOSTests";
+			productReference = 4E6A41EF1FFA95CF00DC7D56 /* UIFontComplete-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,18 +285,24 @@
 		AAE1A28A1E02618D00610C40 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0900;
 				TargetAttributes = {
-					AAE1A2921E02618D00610C40 = {
-						CreatedOnToolsVersion = 8.2;
-						LastSwiftMigration = 0900;
+					4E4C4E801FFA0D9400058722 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					AAE1A29B1E02618D00610C40 = {
-						CreatedOnToolsVersion = 8.2;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+					4E4C4E881FFA0D9400058722 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4E6A41E61FFA95CF00DC7D56 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4E6A41EE1FFA95CF00DC7D56 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -202,21 +318,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAE1A2921E02618D00610C40 /* UIFontComplete */,
-				AAE1A29B1E02618D00610C40 /* UIFontCompleteTests */,
+				4E6A41E61FFA95CF00DC7D56 /* UIFontComplete-iOS */,
+				4E6A41EE1FFA95CF00DC7D56 /* UIFontComplete-iOSTests */,
+				4E4C4E801FFA0D9400058722 /* UIFontComplete-tvOS */,
+				4E4C4E881FFA0D9400058722 /* UIFontComplete-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AAE1A2911E02618D00610C40 /* Resources */ = {
+		4E4C4E7F1FFA0D9400058722 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAE1A29A1E02618D00610C40 /* Resources */ = {
+		4E4C4E871FFA0D9400058722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41E51FFA95CF00DC7D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41ED1FFA95CF00DC7D56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,35 +358,240 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AAE1A28E1E02618D00610C40 /* Sources */ = {
+		4E4C4E7C1FFA0D9400058722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA813B591F0092450096ABBD /* FontRepresentable.swift in Sources */,
-				AA813B581F0092450096ABBD /* Font.swift in Sources */,
-				AA813B5A1F0092450096ABBD /* UIFont+Extension.swift in Sources */,
+				4E6A41E11FFA942300DC7D56 /* UIFont+Extension.swift in Sources */,
+				4E4C4E981FFA7CDE00058722 /* Font.swift in Sources */,
+				4E4C4E991FFA7CE500058722 /* FontRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAE1A2981E02618D00610C40 /* Sources */ = {
+		4E4C4E851FFA0D9400058722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAED536C1F53EEA7009C874C /* UIFontCompleteTests.swift in Sources */,
+				4E4C4E8F1FFA0D9400058722 /* UIFontComplete_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41E21FFA95CF00DC7D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6A42001FFA968100DC7D56 /* UIFont+Extension.swift in Sources */,
+				4E6A41FE1FFA967900DC7D56 /* Font.swift in Sources */,
+				4E6A41FF1FFA967D00DC7D56 /* FontRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6A41EB1FFA95CF00DC7D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6A42031FFA96D700DC7D56 /* UIFontCompleteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AAE1A29F1E02618D00610C40 /* PBXTargetDependency */ = {
+		4E4C4E8C1FFA0D9400058722 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAE1A2921E02618D00610C40 /* UIFontComplete */;
-			targetProxy = AAE1A29E1E02618D00610C40 /* PBXContainerItemProxy */;
+			target = 4E4C4E801FFA0D9400058722 /* UIFontComplete-tvOS */;
+			targetProxy = 4E4C4E8B1FFA0D9400058722 /* PBXContainerItemProxy */;
+		};
+		4E6A41F21FFA95CF00DC7D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6A41E61FFA95CF00DC7D56 /* UIFontComplete-iOS */;
+			targetProxy = 4E6A41F11FFA95CF00DC7D56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4E4C4E931FFA0D9400058722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-tvOS";
+				PRODUCT_NAME = UIFontComplete;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		4E4C4E941FFA0D9400058722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-tvOS";
+				PRODUCT_NAME = UIFontComplete;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		4E4C4E961FFA0D9400058722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		4E4C4E971FFA0D9400058722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		4E6A41F91FFA95CF00DC7D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-iOS";
+				PRODUCT_NAME = UIFontComplete;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E6A41FA1FFA95CF00DC7D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-iOS";
+				PRODUCT_NAME = UIFontComplete;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E6A41FC1FFA95CF00DC7D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E6A41FD1FFA95CF00DC7D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "UIFontComplete-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccharoli.UIFontComplete-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AAE1A2A51E02618D00610C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -368,104 +705,50 @@
 			};
 			name = Release;
 		};
-		AAE1A2A81E02618D00610C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIFontComplete/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fontComplete.UIFontComplete;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		AAE1A2A91E02618D00610C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIFontComplete/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fontComplete.UIFontComplete;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		AAE1A2AB1E02618D00610C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = UIFontCompleteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fontComplete.UIFontCompleteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		AAE1A2AC1E02618D00610C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = UIFontCompleteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fontComplete.UIFontCompleteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E4C4E921FFA0D9400058722 /* Build configuration list for PBXNativeTarget "UIFontComplete-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4C4E931FFA0D9400058722 /* Debug */,
+				4E4C4E941FFA0D9400058722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4C4E951FFA0D9400058722 /* Build configuration list for PBXNativeTarget "UIFontComplete-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4C4E961FFA0D9400058722 /* Debug */,
+				4E4C4E971FFA0D9400058722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6A41F81FFA95CF00DC7D56 /* Build configuration list for PBXNativeTarget "UIFontComplete-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6A41F91FFA95CF00DC7D56 /* Debug */,
+				4E6A41FA1FFA95CF00DC7D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6A41FB1FFA95CF00DC7D56 /* Build configuration list for PBXNativeTarget "UIFontComplete-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E6A41FC1FFA95CF00DC7D56 /* Debug */,
+				4E6A41FD1FFA95CF00DC7D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AAE1A28D1E02618D00610C40 /* Build configuration list for PBXProject "UIFontComplete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAE1A2A51E02618D00610C40 /* Debug */,
 				AAE1A2A61E02618D00610C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAE1A2A71E02618D00610C40 /* Build configuration list for PBXNativeTarget "UIFontComplete" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAE1A2A81E02618D00610C40 /* Debug */,
-				AAE1A2A91E02618D00610C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAE1A2AA1E02618D00610C40 /* Build configuration list for PBXNativeTarget "UIFontCompleteTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAE1A2AB1E02618D00610C40 /* Debug */,
-				AAE1A2AC1E02618D00610C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
