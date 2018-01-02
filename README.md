@@ -1,6 +1,7 @@
 # UIFontComplete
 [![Build Status](https://travis-ci.org/Nirma/UIFontComplete.svg?branch=master)](https://travis-ci.org/Nirma/UIFontComplete)
 ![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg)
+![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20tvOS-333333.svg)
 ![CodeCov](https://img.shields.io/codecov/c/github/Nirma/UIFontComplete.svg)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIFontComplete.svg)](#cocoapods)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/UIFontComplete.svg)]()
@@ -8,11 +9,11 @@
  [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-Make working with `UIFont` faster and less error-prone
+Font management (System & Custom) for iOS and tvOS
 
 ## Usage 
 No more wasted time searching for names of `UIFont` fonts and no more surprises at runtime if a font name was mistyped.
-This library is simply one extension to `UIFont` and one `Font` `enum` with a case for each system font on iOS. 
+This library is simply one extension to `UIFont` and one `Font` `enum` with a case for each system font on iOS and tvOS. 
 Custom font support is also available, please keep reading for details!
 
 Instead of using the `String` based constructor native to `UIFont`:
