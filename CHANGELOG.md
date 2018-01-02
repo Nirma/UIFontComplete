@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 `UIFontComplete` adheres to [Semantic Versioning](http://semver.org/).
 
 --- 
+## [3.0.0](https://github.com/Nirma/UIFontComplete/releases/tag/3.0.0) (01/03/2018)
+
+#### Summary
+This release adds support for tvOS.
+
+## [2.0.0](https://github.com/Nirma/UIFontComplete/releases/tag/2.0.0) (09/20/2017)
+
+#### Summary
+This is a minor release focusing on updating build settings for swift 4.
+
+## Changes
+- Build settings have been updated for Swift 4
 
 ## [1.1.0](https://github.com/Nirma/UIFontComplete/releases/tag/1.1.0) (08/28/2017)
 
