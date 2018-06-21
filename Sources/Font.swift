@@ -27,7 +27,7 @@ public enum Font: String, FontRepresentable {
                         iOS Fonts
      📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱
     */
-    
+
     // Font Family: Academy Engraved LET
     case academyEngravedLetPlain = "AcademyEngravedLetPlain"
 
@@ -411,20 +411,20 @@ public enum Font: String, FontRepresentable {
     case verdanaBoldItalic = "Verdana-BoldItalic"
     case verdana = "Verdana"
     case verdanaBold = "Verdana-Bold"
-    
+
     // Font Family: Zapf Dingbats
     case zapfDingbatsITC = "ZapfDingbatsITC"
-    
+
     // Font Family: Zapfino
     case zapfino = "Zapfino"
-    
+
     #elseif os(tvOS)
     /*
      📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺
                       tvOS Fonts
      📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺📺
     */
-    
+
     // Font Family: American Typewriter
     case americanTypewriterBold = "AmericanTypewriter-Bold"
     case americanTypewriterCondensedLight = "AmericanTypewriter-CondensedLight"
@@ -433,10 +433,10 @@ public enum Font: String, FontRepresentable {
     case americanTypewriter = "AmericanTypewriter"
     case americanTypewriterLight = "AmericanTypewriter-Light"
     case americanTypewriterCondensed = "AmericanTypewriter-Condensed"
-    
+
     // Font Family: Apple Color Emoji
     case appleColorEmoji = "AppleColorEmoji"
-    
+
     // Font Family: Apple SD Gothic Neo
     case appleSDGothicNeoThin = "AppleSDGothicNeo-Thin"
     case appleSDGothicNeoSemiBold = "AppleSDGothicNeo-SemiBold"
@@ -445,12 +445,12 @@ public enum Font: String, FontRepresentable {
     case appleSDGothicNeoBold = "AppleSDGothicNeo-Bold"
     case appleSDGothicNeoUltraLight = "AppleSDGothicNeo-UltraLight"
     case appleSDGothicNeoRegular = "AppleSDGothicNeo-Regular"
-    
+
     // Font Family: Arial Hebrew
     case arialHebrewLight = "ArialHebrew-Light"
     case arialHebrew = "ArialHebrew"
     case arialHebrewBold = "ArialHebrew-Bold"
-    
+
     // Font Family: Avenir
     case avenirBook = "Avenir-Book"
     case avenirHeavy = "Avenir-Heavy"
@@ -464,7 +464,7 @@ public enum Font: String, FontRepresentable {
     case avenirOblique = "Avenir-Oblique"
     case avenirRoman = "Avenir-Roman"
     case avenirMediumOblique = "Avenir-MediumOblique"
-    
+
     // Font Family: Avenir Next
     case avenirNextDemiBold = "AvenirNext-DemiBold"
     case avenirNextUltraLight = "AvenirNext-UltraLight"
@@ -486,44 +486,44 @@ public enum Font: String, FontRepresentable {
     case baskervilleBoldItalic = "Baskerville-BoldItalic"
     case baskervilleItalic = "Baskerville-Italic"
     case baskervilleBold = "Baskerville-Bold"
-    
+
     // Font Family: Copperplate
     case copperplate = "Copperplate"
     case copperplateLight = "Copperplate-Light"
     case copperplateBold = "Copperplate-Bold"
-    
+
     // Font Family: Courier
     case courierBoldOblique = "Courier-BoldOblique"
     case courier = "Courier"
     case courierBold = "Courier-Bold"
     case courierOblique = "Courier-Oblique"
-    
+
     // Font Family: Courier New
     case courierNewPSMT = "CourierNewPSMT"
     case courierNewPSBoldItalicMT = "CourierNewPS-BoldItalicMT"
     case courierNewPSBoldMT = "CourierNewPS-BoldMT"
     case courierNewPSItalicMT = "CourierNewPS-ItalicMT"
-    
+
     // Font Family: Euphemia UCAS
     case euphemiaUCAS = "EuphemiaUCAS"
     case euphemiaUCASBold = "EuphemiaUCAS-Bold"
     case euphemiaUCASItalic = "EuphemiaUCAS-Italic"
-    
+
     // Font Family: Futura
     case futuraBold = "Futura-Bold"
     case futuraMediumItalic = "Futura-MediumItalic"
     case futuraCondensedExtraBold = "Futura-CondensedExtraBold"
     case futuraCondensedMedium = "Futura-CondensedMedium"
     case futuraMedium = "Futura-Medium"
-    
+
     // Font Family: Geeza Pro
     case geezaProBold = "GeezaPro-Bold"
     case geezaPro = "GeezaPro"
-    
+
     // Font Family: Gujarati Sangam MN
     case gujaratiSangamMNBold = "GujaratiSangamMN-Bold"
     case gujaratiSangamMN = "GujaratiSangamMN"
-    
+
     // Font Family: Gurmukhi MN
     case gurmukhiMN = "GurmukhiMN"
     case gurmukhiMNBold = "GurmukhiMN-Bold"
@@ -535,8 +535,7 @@ public enum Font: String, FontRepresentable {
     case helveticaBoldOblique = "Helvetica-BoldOblique"
     case helveticaLight = "Helvetica-Light"
     case helvetica = "Helvetica"
-    
-    
+
     // Font Family: Helvetica Neue
     case helveticaNeueUltraLight = "HelveticaNeue-UltraLight"
     case helveticaNeueUltraLightItalic = "HelveticaNeue-UltraLightItalic"
@@ -552,68 +551,68 @@ public enum Font: String, FontRepresentable {
     case helveticaNeueItalic = "HelveticaNeue-Italic"
     case helveticaNeueBoldItalic = "HelveticaNeue-BoldItalic"
     case helveticaNeueBold = "HelveticaNeue-Bold"
-    
+
     // Font Family: Hiragino Maru Gothic ProN
     case hiraMaruProNW4 = "HiraMaruProN-W4"
-    
+
     // Font Family: Hiragino Sans
     case hiraginoSansW5 = "HiraginoSans-W5"
     case hiraginoSansW6 = "HiraginoSans-W6"
     case hiraginoSansW3 = "HiraginoSans-W3"
-    
+
     // Font Family: Kailasa
     case kailasa = "Kailasa"
     case kailasaBold = "Kailasa-Bold"
-    
+
     // Font Family: Kannada Sangam MN
     case kannadaSangamMNBold = "KannadaSangamMN-Bold"
     case kannadaSangamMN = "KannadaSangamMN"
-    
+
     // Font Family: Kefa
     case kefaRegular = "Kefa-Regular"
-    
+
     // Font Family: Khmer Sangam MN
     case khmerSangamMN = "KhmerSangamMN"
-    
+
     // Font Family: Kohinoor Bangla
     case kohinoorBanglaRegular = "KohinoorBangla-Regular"
     case kohinoorBanglaSemibold = "KohinoorBangla-Semibold"
     case kohinoorBanglaLight = "KohinoorBangla-Light"
-    
+
     // Font Family: Kohinoor Devanagari
     case kohinoorDevanagariLight = "KohinoorDevanagari-Light"
     case kohinoorDevanagariRegular = "KohinoorDevanagari-Regular"
     case kohinoorDevanagariSemibold = "KohinoorDevanagari-Semibold"
-    
+
     // Font Family: Kohinoor Telugu
     case kohinoorTeluguLight = "KohinoorTelugu-Light"
     case kohinoorTeluguMedium = "KohinoorTelugu-Medium"
     case kohinoorTeluguRegular = "KohinoorTelugu-Regular"
-    
+
     // Font Family: Lao Sangam MN
     case laoSangamMN = "LaoSangamMN"
-    
+
     // Font Family: Malayalam Sangam MN
     case malayalamSangamMN = "MalayalamSangamMN"
     case malayalamSangamMNBold = "MalayalamSangamMN-Bold"
-    
+
     // Font Family: Menlo
     case menloBoldItalic = "Menlo-BoldItalic"
     case menloItalic = "Menlo-Italic"
     case menloRegular = "Menlo-Regular"
     case menloBold = "Menlo-Bold"
-    
+
     // Font Family: Myanmar Sangam MN
     case myanmarSangamMN = "MyanmarSangamMN"
     case myanmarSangamMNBold = "MyanmarSangamMN-Bold"
-    
+
     // Font Family: Noto Nastaliq Urdu
     case notoNastaliqUrdu = "NotoNastaliqUrdu"
-    
+
     // Font Family: Oriya Sangam MN
     case oriyaSangamMNBold = "OriyaSangamMN-Bold"
     case oriyaSangamMN = "OriyaSangamMN"
-    
+
     // Font Family: PingFang HK
     case pingFangHKRegular = "PingFangHK-Regular"
     case pingFangHKMedium = "PingFangHK-Medium"
@@ -621,7 +620,7 @@ public enum Font: String, FontRepresentable {
     case pingFangHKSemibold = "PingFangHK-Semibold"
     case pingFangHKLight = "PingFangHK-Light"
     case pingFangHKUltralight = "PingFangHK-Ultralight"
-    
+
     // Font Family: PingFang SC
     case pingFangSCRegular = "PingFangSC-Regular"
     case pingFangSCUltralight = "PingFangSC-Ultralight"
@@ -629,7 +628,7 @@ public enum Font: String, FontRepresentable {
     case pingFangSCMedium = "PingFangSC-Medium"
     case pingFangSCLight = "PingFangSC-Light"
     case pingFangSCSemibold = "PingFangSC-Semibold"
-    
+
     // Font Family: PingFang TC
     case pingFangTCSemibold = "PingFangTC-Semibold"
     case pingFangTCMedium = "PingFangTC-Medium"
@@ -637,39 +636,38 @@ public enum Font: String, FontRepresentable {
     case pingFangTCUltralight = "PingFangTC-Ultralight"
     case pingFangTCLight = "PingFangTC-Light"
     case pingFangTCThin = "PingFangTC-Thin"
-    
+
     // Font Family: Savoye LET
     case savoyeLetPlain = "SavoyeLetPlain"
-    
+
     // Font Family: Sinhala Sangam MN
     case sinhalaSangamMNBold = "SinhalaSangamMN-Bold"
     case sinhalaSangamMN = "SinhalaSangamMN"
-    
-    
+
     // Font Family: Symbol
     case symbol = "Symbol"
-    
+
     // Font Family: Tamil Sangam MN
     case tamilSangamMN = "TamilSangamMN"
     case tamilSangamMNBold = "TamilSangamMN-Bold"
-    
+
     // Font Family: Thonburi
     case thonburi = "Thonburi"
     case thonburiBold = "Thonburi-Bold"
     case thonburiLight = "Thonburi-Light"
-    
+
     // Font Family: Times New Roman
     case timesNewRomanPSItalicMT = "TimesNewRomanPS-ItalicMT"
     case timesNewRomanPSBoldItalicMT = "TimesNewRomanPS-BoldItalicMT"
     case timesNewRomanPSMT = "TimesNewRomanPSMT"
     case timesNewRomanPSBoldMT = "TimesNewRomanPS-BoldMT"
-    
+
     // Font Family: Trebuchet MS
     case trebuchetMSItalic = "TrebuchetMS-Italic"
     case trebuchetMSBold = "TrebuchetMS-Bold"
     case trebuchetBoldItalic = "Trebuchet-BoldItalic"
     case trebuchetMS = "TrebuchetMS"
-    
+
     // Font Family: Zapf Dingbats
     case zapfDingbatsITC = "ZapfDingbatsITC"
     #endif

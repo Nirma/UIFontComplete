@@ -10,7 +10,6 @@ disabled_rules:
 opt_in_rules:
   - empty_count
 included: 
-  - UIFontComplete
-  - UIFontCompleteTests      
+  - Sources	
 line_length: 180
 reporter: "xcode" 
