@@ -27,7 +27,7 @@ import PackageDescription
 let package = Package(
     name: "UIFontComplete",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v9),
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
@@ -47,6 +47,6 @@ let package = Package(
             name: "UIFontComplete",
             dependencies: [],
             path: "Sources"
-        )
+        ),
     ]
 )

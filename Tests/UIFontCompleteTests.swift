@@ -19,11 +19,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import XCTest
 @testable import UIFontComplete
+import XCTest
 
 class UIFontCompleteTests: XCTestCase {
-
     func testFontCopperplatelight() {
         XCTAssert(UIFont(font: .copperplateLight, size: 12.0) != nil, "Font \"Copperplate-Light\" can not be found.")
     }
