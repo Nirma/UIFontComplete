@@ -1019,9 +1019,7 @@ class UIFontCompleteTests: XCTestCase {
     func testHiraMaruProNW4() {
         XCTAssert(UIFont(font: .hiraMaruProNW4, size: 12.0) != nil, "Font \"HiraMaruProN-W4\" can not be found.")
     }
-    func testHiraginoSansW7() {
-        XCTAssert(UIFont(font: .hiraginoSansW7, size: 12.0) != nil, "Font \"HiraginoSans-W7\" can not be found.")
-    }
+
     func testKefaRegular() {
         XCTAssert(UIFont(font: .kefaRegular, size: 12.0) != nil, "Font \"Kefa-Regular\" can not be found.")
     }
