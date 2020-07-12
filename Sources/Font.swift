@@ -20,6 +20,79 @@
 // SOFTWARE.
 
 public enum Font: String, FontRepresentable {
+
+    // ======== ONLY Available in iOS 13+ ========
+    #if os(iOS)
+        /// Available from iOS 13
+        case appleSymbols = "AppleSymbols"
+
+        /// Available from iOS 13
+        case charterBlackItalic = "Charter-BlackItalic"
+        /// Available from iOS 13
+        case charterBold = "Charter-Bold"
+        /// Available from iOS 13
+        case charterRoman = "Charter-Roman"
+        /// Available from iOS 13
+        case charterBlack = "Charter-Black"
+        /// Available from iOS 13
+        case charterBoldItalic = "Charter-BoldItalic"
+        /// Available from iOS 13
+        case charterItalic = "Charter-Italic"
+
+        /// Available from iOS 13
+        case dINAlternateBold = "DINAlternate-Bold"
+        /// Available from iOS 13
+        case dINCondensedBold = "DINCondensed-Bold"
+        /// Available from iOS 13
+        case galvjiBold = "Galvji-Bold"
+        /// Available from iOS 13
+        case galvji = "Galvji"
+
+        /// Available from iOS 13
+        case hiraginoSansW7 = "HiraginoSans-W7"
+
+        /// Available from iOS 13
+        case kohinoorGujaratiLight = "KohinoorGujarati-Light"
+        /// Available from iOS 13
+        case kohinoorGujaratiBold = "KohinoorGujarati-Bold"
+        /// Available from iOS 13
+        case kohinoorGujaratiRegular = "KohinoorGujarati-Regular"
+        /// Available from iOS 13
+        case muktaMaheeLight = "MuktaMahee-Light"
+        /// Available from iOS 13
+        case muktaMaheeBold = "MuktaMahee-Bold"
+        /// Available from iOS 13
+        case muktaMaheeRegular = "MuktaMahee-Regular"
+
+        /// Available from iOS 13
+        case notoNastaliqUrduBold = "NotoNastaliqUrdu-Bold"
+        /// Available from iOS 13
+        case notoSansKannadaBold = "NotoSansKannada-Bold"
+        /// Available from iOS 13
+        case notoSansKannadaLight = "NotoSansKannada-Light"
+        /// Available from iOS 13
+        case notoSansKannadaRegular = "NotoSansKannada-Regular"
+        /// Available from iOS 13
+        case notoSansMyanmarRegular = "NotoSansMyanmar-Regular"
+        /// Available from iOS 13
+        case notoSansMyanmarBold = "NotoSansMyanmar-Bold"
+        /// Available from iOS 13
+        case notoSansMyanmarLight = "NotoSansMyanmar-Light"
+        /// Available from iOS 13
+        case notoSansOriyaBold = "NotoSansOriya-Bold"
+        /// Available from iOS 13
+        case notoSansOriya = "NotoSansOriya"
+        /// Available from iOS 13
+        case rockwellItalic = "Rockwell-Italic"
+        /// Available from iOS 13
+        case rockwellRegular = "Rockwell-Regular"
+        /// Available from iOS 13
+        case rockwellBold = "Rockwell-Bold"
+        /// Available from iOS 13
+        case rockwellBoldItalic = "Rockwell-BoldItalic"
+    #endif
+    // ======== END of iOS 13 exclusive fonts ========
+
     #if os(iOS)
 
         // MARK: Academy Engraved LET
@@ -276,8 +349,6 @@ public enum Font: String, FontRepresentable {
 
     #endif
 
-
-
     // MARK: Helvetica
 
     case helvetica = "Helvetica"
@@ -310,14 +381,11 @@ public enum Font: String, FontRepresentable {
 
         case hiraMinProNW3 = "HiraMinProN-W3"
         case hiraMinProNW6 = "HiraMinProN-W6"
-
-    #elseif os(tvOS)
-
-        case hiraMaruProNW4 = "HiraMaruProN-W4"
-
     #endif
 
-    //  MARK: Hiragino Sans
+    case hiraMaruProNW4 = "HiraMaruProN-W4"
+
+    // MARK: Hiragino Sans
 
     case hiraginoSansW3 = "HiraginoSans-W3"
 
@@ -331,7 +399,7 @@ public enum Font: String, FontRepresentable {
 
     #if os(iOS)
 
-        //  MARK: Hoefler Text
+        // MARK: Hoefler Text
 
         case hoeflerTextBlack = "HoeflerText-Black"
         case hoeflerTextBlackItalic = "HoeflerText-BlackItalic"
@@ -345,14 +413,8 @@ public enum Font: String, FontRepresentable {
     case kailasa = "Kailasa"
     case kailasaBold = "Kailasa-Bold"
 
-
-    #if os(tvOS)
-
-        // MARK: Kefa
-
-        case kefaRegular = "Kefa-Regular"
-
-    #endif
+    // MARK: Kefa
+    case kefaRegular = "Kefa-Regular"
 
     // MARK: Khmer Sangam MN
 
@@ -411,13 +473,9 @@ public enum Font: String, FontRepresentable {
     case noteworthyBold = "Noteworthy-Bold"
     case noteworthyLight = "Noteworthy-Light"
 
-    #if os(tvOS)
+    // MARK: Noto Nastaliq Urdu
 
-        // MARK: Noto Nastaliq Urdu
-
-        case notoNastaliqUrdu = "NotoNastaliqUrdu"
-
-    #endif
+    case notoNastaliqUrdu = "NotoNastaliqUrdu"
 
     // MARK: Optima
 
@@ -426,7 +484,6 @@ public enum Font: String, FontRepresentable {
     case optimaExtraBlack = "Optima-ExtraBlack"
     case optimaItalic = "Optima-Italic"
     case optimaRegular = "Optima-Regular"
-
 
     // MARK: Palatino
 
