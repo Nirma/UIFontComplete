@@ -303,14 +303,6 @@ class UIFontComplete_tvOSTests: XCTestCase {
         XCTAssert(UIFont(font: .geezaPro, size: 12.0) != nil, "Font \"GeezaPro\" can not be found.")
     }
 
-    func testGurmukhiMN() {
-        XCTAssert(UIFont(font: .gurmukhiMN, size: 12.0) != nil, "Font \"GurmukhiMN\" can not be found.")
-    }
-
-    func testGurmukhiMNBold() {
-        XCTAssert(UIFont(font: .gurmukhiMNBold, size: 12.0) != nil, "Font \"GurmukhiMN-Bold\" can not be found.")
-    }
-
     func testHelveticaOblique() {
         XCTAssert(UIFont(font: .helveticaOblique, size: 12.0) != nil, "Font \"Helvetica-Oblique\" can not be found.")
     }

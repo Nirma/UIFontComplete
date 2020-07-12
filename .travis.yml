@@ -1,9 +1,9 @@
 language: objective-c
-osx_image: xcode10.2
+osx_image: xcode11.5
 xcode_project: UIFontComplete.xcodeproj # path to your xcodeproj folder
 xcode_scheme: UIFontComplete
 
 script:
-  - xcodebuild test -scheme UIFontComplete-iOS -sdk iphonesimulator  -destination 'OS=12.0,name=iPhone 7' 
+  - xcodebuild test -scheme UIFontComplete-iOS -sdk iphonesimulator  -destination 'OS=13.0,name=iPhone 11' 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
