@@ -303,14 +303,6 @@ class UIFontComplete_tvOSTests: XCTestCase {
         XCTAssert(UIFont(font: .geezaPro, size: 12.0) != nil, "Font \"GeezaPro\" can not be found.")
     }
 
-    func testGujaratiSangamMNBold() {
-        XCTAssert(UIFont(font: .gujaratiSangamMNBold, size: 12.0) != nil, "Font \"GujaratiSangamMN-Bold\" can not be found.")
-    }
-
-    func testGujaratiSangamMN() {
-        XCTAssert(UIFont(font: .gujaratiSangamMN, size: 12.0) != nil, "Font \"GujaratiSangamMN\" can not be found.")
-    }
-
     func testGurmukhiMN() {
         XCTAssert(UIFont(font: .gurmukhiMN, size: 12.0) != nil, "Font \"GurmukhiMN\" can not be found.")
     }
@@ -423,14 +415,6 @@ class UIFontComplete_tvOSTests: XCTestCase {
         XCTAssert(UIFont(font: .kailasaBold, size: 12.0) != nil, "Font \"Kailasa-Bold\" can not be found.")
     }
 
-    func testKannadaSangamMNBold() {
-        XCTAssert(UIFont(font: .kannadaSangamMNBold, size: 12.0) != nil, "Font \"KannadaSangamMN-Bold\" can not be found.")
-    }
-
-    func testKannadaSangamMN() {
-        XCTAssert(UIFont(font: .kannadaSangamMN, size: 12.0) != nil, "Font \"KannadaSangamMN\" can not be found.")
-    }
-
     func testKefaRegular() {
         XCTAssert(UIFont(font: .kefaRegular, size: 12.0) != nil, "Font \"Kefa-Regular\" can not be found.")
     }
@@ -513,14 +497,6 @@ class UIFontComplete_tvOSTests: XCTestCase {
 
     func testNotoNastaliqUrdu() {
         XCTAssert(UIFont(font: .notoNastaliqUrdu, size: 12.0) != nil, "Font \"NotoNastaliqUrdu\" can not be found.")
-    }
-
-    func testOriyaSangamMNBold() {
-        XCTAssert(UIFont(font: .oriyaSangamMNBold, size: 12.0) != nil, "Font \"OriyaSangamMN-Bold\" can not be found.")
-    }
-
-    func testOriyaSangamMN() {
-        XCTAssert(UIFont(font: .oriyaSangamMN, size: 12.0) != nil, "Font \"OriyaSangamMN\" can not be found.")
     }
 
     func testPingFangHKRegular() {

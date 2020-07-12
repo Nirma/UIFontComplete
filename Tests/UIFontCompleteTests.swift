@@ -259,14 +259,6 @@ class UIFontCompleteTests: XCTestCase {
         XCTAssert(UIFont(font: .helveticaNeue, size: 12.0) != nil, "Font \"HelveticaNeue\" can not be found.")
     }
 
-    func testFontGurmukhimnbold() {
-        XCTAssert(UIFont(font: .gurmukhiMNBold, size: 12.0) != nil, "Font \"GurmukhiMN-Bold\" can not be found.")
-    }
-
-    func testFontGurmukhimn() {
-        XCTAssert(UIFont(font: .gurmukhiMN, size: 12.0) != nil, "Font \"GurmukhiMN\" can not be found.")
-    }
-
     func testFontTimesnewromanpsmt() {
         XCTAssert(UIFont(font: .timesNewRomanPSMT, size: 12.0) != nil, "Font \"TimesNewRomanPSMT\" can not be found.")
     }
@@ -383,14 +375,6 @@ class UIFontCompleteTests: XCTestCase {
         XCTAssert(UIFont(font: .pingFangTCThin, size: 12.0) != nil, "Font \"PingFangTC-Thin\" can not be found.")
     }
 
-    func testFontGujaratisangammnbold() {
-        XCTAssert(UIFont(font: .gujaratiSangamMNBold, size: 12.0) != nil, "Font \"GujaratiSangamMN-Bold\" can not be found.")
-    }
-
-    func testFontGujaratisangammn() {
-        XCTAssert(UIFont(font: .gujaratiSangamMN, size: 12.0) != nil, "Font \"GujaratiSangamMN\" can not be found.")
-    }
-
     func testFontDamascuslight() {
         XCTAssert(UIFont(font: .damascusLight, size: 12.0) != nil, "Font \"DamascusLight\" can not be found.")
     }
@@ -505,14 +489,6 @@ class UIFontCompleteTests: XCTestCase {
 
     func testFontFarah() {
         XCTAssert(UIFont(font: .farah, size: 12.0) != nil, "Font \"Farah\" can not be found.")
-    }
-
-    func testFontKannadasangammn() {
-        XCTAssert(UIFont(font: .kannadaSangamMN, size: 12.0) != nil, "Font \"KannadaSangamMN\" can not be found.")
-    }
-
-    func testFontKannadasangammnbold() {
-        XCTAssert(UIFont(font: .kannadaSangamMNBold, size: 12.0) != nil, "Font \"KannadaSangamMN-Bold\" can not be found.")
     }
 
     func testFontArialhebrewbold() {
@@ -737,14 +713,6 @@ class UIFontCompleteTests: XCTestCase {
 
     func testFontDevanagarisangammnbold() {
         XCTAssert(UIFont(font: .devanagariSangamMNBold, size: 12.0) != nil, "Font \"DevanagariSangamMN-Bold\" can not be found.")
-    }
-
-    func testFontOriyasangammn() {
-        XCTAssert(UIFont(font: .oriyaSangamMN, size: 12.0) != nil, "Font \"OriyaSangamMN\" can not be found.")
-    }
-
-    func testFontOriyasangammnbold() {
-        XCTAssert(UIFont(font: .oriyaSangamMNBold, size: 12.0) != nil, "Font \"OriyaSangamMN-Bold\" can not be found.")
     }
 
     func testFontSnellroundhandbold() {

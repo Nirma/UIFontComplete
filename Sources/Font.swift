@@ -276,15 +276,7 @@ public enum Font: String, FontRepresentable {
 
     #endif
 
-    // MARK: Gujarati Sangam MN
 
-    case gujaratiSangamMN = "GujaratiSangamMN"
-    case gujaratiSangamMNBold = "GujaratiSangamMN-Bold"
-
-    // MARK: Gurmukhi MN
-
-    case gurmukhiMN = "GurmukhiMN"
-    case gurmukhiMNBold = "GurmukhiMN-Bold"
 
     // MARK: Helvetica
 
@@ -353,10 +345,6 @@ public enum Font: String, FontRepresentable {
     case kailasa = "Kailasa"
     case kailasaBold = "Kailasa-Bold"
 
-    //  MARK: Kannada Sangam MN
-
-    case kannadaSangamMN = "KannadaSangamMN"
-    case kannadaSangamMNBold = "KannadaSangamMN-Bold"
 
     #if os(tvOS)
 
@@ -439,10 +427,6 @@ public enum Font: String, FontRepresentable {
     case optimaItalic = "Optima-Italic"
     case optimaRegular = "Optima-Regular"
 
-    // MARK: Oriya Sangam MN
-
-    case oriyaSangamMN = "OriyaSangamMN"
-    case oriyaSangamMNBold = "OriyaSangamMN-Bold"
 
     // MARK: Palatino
 
