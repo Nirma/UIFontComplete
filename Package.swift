@@ -48,5 +48,10 @@ let package = Package(
             dependencies: [],
             path: "Sources"
         ),
+        .testTarget(
+            name: "UIFontCompleteTests",
+            dependencies: ["UIFontComplete"],
+            path: "Tests"
+        ),
     ]
 )
