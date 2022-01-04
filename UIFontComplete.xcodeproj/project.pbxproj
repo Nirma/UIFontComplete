@@ -19,8 +19,8 @@
 		4E6A41FF1FFA967D00DC7D56 /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B561F0092450096ABBD /* FontRepresentable.swift */; };
 		4E6A42001FFA968100DC7D56 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA813B571F0092450096ABBD /* UIFont+Extension.swift */; };
 		4E6A42031FFA96D700DC7D56 /* UIFontCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */; };
-		C6EAE31B2784A06F00315B5C /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAE31A2784A06F00315B5C /* Font+Extension.swift */; };
-		C6EAE31C2784A06F00315B5C /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAE31A2784A06F00315B5C /* Font+Extension.swift */; };
+		C6EAE3212784A32C00315B5C /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAE3202784A32C00315B5C /* Font+Extension.swift */; };
+		C6EAE3222784A32C00315B5C /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAE3202784A32C00315B5C /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		AA813B571F0092450096ABBD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "Sources/UIFont+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		AAE1A2A31E02618D00610C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAED536B1F53EEA7009C874C /* UIFontCompleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontCompleteTests.swift; path = Tests/UIFontCompleteTests.swift; sourceTree = SOURCE_ROOT; };
-		C6EAE31A2784A06F00315B5C /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C6EAE3202784A32C00315B5C /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Font+Extension.swift"; path = "Sources/Font+Extension.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +183,8 @@
 		AAE1A2B41E027F1A00610C40 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C6EAE3202784A32C00315B5C /* Font+Extension.swift */,
 				AA813B571F0092450096ABBD /* UIFont+Extension.swift */,
-				C6EAE31A2784A06F00315B5C /* Font+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -371,7 +371,7 @@
 			files = (
 				4E6A41E11FFA942300DC7D56 /* UIFont+Extension.swift in Sources */,
 				4E4C4E981FFA7CDE00058722 /* Font.swift in Sources */,
-				C6EAE31C2784A06F00315B5C /* Font+Extension.swift in Sources */,
+				C6EAE3222784A32C00315B5C /* Font+Extension.swift in Sources */,
 				4E4C4E991FFA7CE500058722 /* FontRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,7 +390,7 @@
 			files = (
 				4E6A42001FFA968100DC7D56 /* UIFont+Extension.swift in Sources */,
 				4E6A41FE1FFA967900DC7D56 /* Font.swift in Sources */,
-				C6EAE31B2784A06F00315B5C /* Font+Extension.swift in Sources */,
+				C6EAE3212784A32C00315B5C /* Font+Extension.swift in Sources */,
 				4E6A41FF1FFA967D00DC7D56 /* FontRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
