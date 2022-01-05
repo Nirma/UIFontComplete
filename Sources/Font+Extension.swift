@@ -19,21 +19,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-typealias UIFontComplete_Font = Font
-
 import CoreGraphics
 import SwiftUI
 import UIKit
 
-@available(iOS 13.0, *)
-extension SwiftUI.Font {
+@available(tvOS 13.0, iOS 13.0, *)
+extension Font {
 	/// Create a UIFont object with a `Font` enum
-	init?(font: UIFontComplete_Font, size: CGFloat) {
-		let fontIdentifier: String = font.rawValue
-		if let uiFont = UIFont(name: fontIdentifier, size: size) {
-			self.init(uiFont)
-		} else {
-			return nil
-		}
+	init(font: BuiltInFont, size: CGFloat) {
+		self = Font.custom(font.rawValue, size: size)
 	}
 }

@@ -1086,11 +1086,11 @@ class UIFontCompleteTests: XCTestCase {
 
     func testOfSizeCGFloat() {
         let testValue: CGFloat = 12.0
-        XCTAssertNotNil(Font.helvetica.of(size: testValue))
+        XCTAssertNotNil(BuiltInFont.helvetica.of(size: testValue))
     }
 
     func testOfSizeDouble() {
         let testValue: Double = 12.0
-        XCTAssertNotNil(Font.helvetica.of(size: testValue))
+        XCTAssertNotNil(BuiltInFont.helvetica.of(size: testValue))
     }
 }

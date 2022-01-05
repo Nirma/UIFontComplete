@@ -3,7 +3,18 @@
 All notable changes to this project will be documented in this file.
 `UIFontComplete` adheres to [Semantic Versioning](http://semver.org/).
 
---- 
+---
+Draft changelog of 4.0.0
+
+#### Summary
+
+This version adds support for SwiftUI's Font.
+
+## Breaking changes
+
+* Font renamed to BuiltInFont to avoid naming collision with SwiftUI.
+* Initializing fonts with BuiltInFont now requires you to explicitly specify type: UIFont? or Font.
+
 ## [3.0.0](https://github.com/Nirma/UIFontComplete/releases/tag/3.0.0) (01/03/2018)
 
 #### Summary

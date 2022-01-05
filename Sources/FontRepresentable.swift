@@ -19,12 +19,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+import SwiftUI
 import UIKit
 
 public protocol FontRepresentable: RawRepresentable {}
 
 extension FontRepresentable where Self.RawValue == String {
-    /// An alternative way to get a particular `UIFont` instance from a `Font`
+    /// An alternative way to get a particular `UIFont` instance from a `BuiltInFont`
     /// value.
     ///
     /// - parameter of size: The desired size of the font.
@@ -38,4 +39,14 @@ extension FontRepresentable where Self.RawValue == String {
     public func of(size: Double) -> UIFont? {
         return UIFont(name: rawValue, size: CGFloat(size))
     }
+
+	@available(tvOS 13.0, iOS 13.0, *)
+	public func of(size: CGFloat) -> Font {
+		return Font.custom(rawValue, size: size)
+	}
+
+	@available(tvOS 13.0, iOS 13.0, *)
+	public func of(size: Double) -> Font {
+		return Font.custom(rawValue, size: CGFloat(size))
+	}
 }

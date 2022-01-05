@@ -26,16 +26,16 @@ You can now simply start typing the name of the font enum and let code completio
 ![](http://i.imgur.com/yBYRQVB.gif)
 
 This library currently provides two different options for creating `UIFont` objects.
-The first is calling the font name off of the provided `Font` enumeration and then calling `of(size:)`
+The first is calling the font name off of the provided `BuiltInFont` enumeration and then calling `of(size:)`
 to provide the desired size.
- 
-```swif
-let myFont = Font.helvetica.of(size: 12.0)
+
+```swift
+let myFont: UIFont? = BuiltInFont.helvetica.of(size: 12.0)
 ```
 
 The other `UIFont` creation method offered by this library is similar to the normal `UIFont`
 constructor except that instead of providing a `String` of the desired font, a case of the `Font` enum is provided instead.
- 
+
 ```swift
 let font = UIFont(font: .arialBoldItalicMT, size: 12.0)
 ```
@@ -54,6 +54,23 @@ enum CustomFont: String, FontRepresentable {
 
 CustomFont.alexBrushRegular.of(size: 12.0) // => UIFont
 ```
+
+### SwiftUI support
+
+SwiftUI Font is handled in a same way as UIKit UIFont.
+
+You can do both:
+
+```swift
+let myFont: Font = BuiltInFont.helvetica.of(size: 12.0)
+```
+
+
+
+```swift
+let font = Font(font: .arialBoldItalicMT, size: 12.0)
+```
+
 
 
 ## Installation
