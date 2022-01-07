@@ -42,11 +42,11 @@ extension FontRepresentable where Self.RawValue == String {
 
 	@available(tvOS 13.0, iOS 13.0, *)
 	public func of(size: CGFloat) -> Font {
-		return Font.custom(rawValue, size: size)
+		return .custom(rawValue, size: size)
 	}
 
 	@available(tvOS 13.0, iOS 13.0, *)
 	public func of(size: Double) -> Font {
-		return Font.custom(rawValue, size: CGFloat(size))
+		return .custom(rawValue, size: CGFloat(size))
 	}
 }
