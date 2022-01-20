@@ -1,4 +1,4 @@
-// Font.swift
+// BuiltInFont.swift
 // Copyright (c) 2016-2019 Nicholas Maccharoli
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-public enum Font: String, FontRepresentable {
+public enum BuiltInFont: String, FontRepresentable {
 
     // ======== ONLY Available in iOS 13+ ========
     #if os(iOS)

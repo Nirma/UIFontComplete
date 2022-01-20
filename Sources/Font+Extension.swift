@@ -1,5 +1,5 @@
-// FontRepresentable.swift
-// Copyright (c) 2016-2019 Nicholas Maccharoli
+// Font+Extension.swift
+// Copyright (c) 2016-2019 Mikhail Barashkov
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -19,34 +19,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+import CoreGraphics
 import SwiftUI
 import UIKit
 
-public protocol FontRepresentable: RawRepresentable {}
-
-extension FontRepresentable where Self.RawValue == String {
-    /// An alternative way to get a particular `UIFont` instance from a `BuiltInFont`
-    /// value.
-    ///
-    /// - parameter of size: The desired size of the font.
-    ///
-    /// - returns a `UIFont` instance of the desired font family and size, or
-    /// `nil` if the font family or size isn't installed.
-    public func of(size: CGFloat) -> UIFont? {
-        return UIFont(name: rawValue, size: size)
-    }
-
-    public func of(size: Double) -> UIFont? {
-        return UIFont(name: rawValue, size: CGFloat(size))
-    }
-
-	@available(tvOS 13.0, iOS 13.0, *)
-	public func of(size: CGFloat) -> Font {
-		return .custom(rawValue, size: size)
-	}
-
-	@available(tvOS 13.0, iOS 13.0, *)
-	public func of(size: Double) -> Font {
-		return .custom(rawValue, size: CGFloat(size))
+@available(tvOS 13.0, iOS 13.0, *)
+extension Font {
+	/// Create a UIFont object with a `Font` enum
+	init(font: BuiltInFont, size: CGFloat) {
+		self = Font.custom(font.rawValue, size: size)
 	}
 }

@@ -1,4 +1,4 @@
-// Font+Extension.swift
+// UIFont+Extension.swift
 // Copyright (c) 2016-2019 Nicholas Maccharoli
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -23,7 +23,7 @@ import UIKit
 
 extension UIFont {
     /// Create a UIFont object with a `Font` enum
-    public convenience init?(font: Font, size: CGFloat) {
+    public convenience init?(font: BuiltInFont, size: CGFloat) {
         let fontIdentifier: String = font.rawValue
         self.init(name: fontIdentifier, size: size)
     }
