@@ -49,4 +49,16 @@ extension FontRepresentable where Self.RawValue == String {
 	public func of(size: Double) -> Font {
 		return .custom(rawValue, size: CGFloat(size))
 	}
+
+    /// Creates scalable `UIFont` object that takes current Dynamic Type setting into account.
+    ///
+    /// Make sure that labels using this scaleable font have `adjustsFontForContentSizeCategory` set to `true`.
+    /// - Parameter textStyle: The text style to use for this font.
+    /// - Returns: Scalable `UIFont` object.
+    @available(iOS 11.0, *)
+    public func scaledFont(textStyle: UIFont.TextStyle = .body) -> UIFont? {
+        let defaultSize = UIFont.preferredFont(forTextStyle: textStyle).pointSize
+        guard let font = UIFont(name: rawValue, size: defaultSize) else { return nil }
+        return UIFontMetrics(forTextStyle: textStyle).scaledFont(for: font)
+    }
 }
