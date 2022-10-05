@@ -95,6 +95,10 @@ UIFontComplete to your `Podfile`:
 pod 'UIFontComplete'
 ```
 
+#### Swift Package Manager
+
+In Xcode, select File > Add Packages, then copy-paste the URL for this repository to the search field and hit the "Add Package" button.
+
 ## Requirements
 
 * Xcode 9.0
