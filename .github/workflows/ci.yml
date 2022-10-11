@@ -1,0 +1,20 @@
+name: Swift
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run tests
+      run: |
+        xcodebuild -project UIFontComplete.xcodeproj -target UIFontComplete-iOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13,OS=16'
+        xcodebuild -project UIFontComplete.xcodeproj -target UIFontComplete-tvOS -sdk appletvsimulator -destination 'platform=tvOS Simulator,name=Apple TV,OS=16'
