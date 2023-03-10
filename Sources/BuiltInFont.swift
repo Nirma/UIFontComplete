@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-public enum BuiltInFont: String, FontRepresentable {
+public enum BuiltInFont: String, FontRepresentable, CaseIterable {
 
     // ======== ONLY Available in iOS 13+ ========
     #if os(iOS)
