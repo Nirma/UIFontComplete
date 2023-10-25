@@ -758,6 +758,34 @@ class UIFontCompleteTests: XCTestCase {
     func testFontVerdanabold() {
         XCTAssert(UIFont(font: .verdanaBold, size: 12.0) != nil, "Font \"Verdana-Bold\" can not be found.")
     }
+    
+    func testFontAdelleSansDevanagariBold() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariBold, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Bold\" can not be found.")
+    }
+
+    func testFontAdelleSansDevanagariExtrabold() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariExtrabold, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Extrabold\" can not be found.")
+    }
+
+    func testForAdelleSansDevanagariHeavy() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariHeavy, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Heavy\" can not be found.")
+    }
+
+    func testFontAdelleSansDevanagariLight() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariLight, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Light\" can not be found.")
+    }
+
+    func testFontAdelleSansDevanagariRegular() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariRegular, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Regular\" can not be found.")
+    }
+
+    func testFontAdelleSansDevanagariSemibold() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariSemibold, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Semibold\" can not be found.")
+    }
+
+    func testFontAdelleSansDevanagariThin() {
+        XCTAssert(UIFont(font: .adelleSansDevanagariThin, size: 12.0) != nil, "Font \"Adelle Sans Devanagari Thin\" can not be found.")
+    }
 
     func testFontAmericantypewritercondensedlight() {
         XCTAssert(UIFont(font: .americanTypewriterCondensedLight, size: 12.0) != nil, "Font \"AmericanTypewriter-CondensedLight\" can not be found.")
