@@ -106,6 +106,18 @@ public enum BuiltInFont: String, FontRepresentable, CaseIterable {
 
     #endif
 
+    // MARK: Adelle Sans Devanagari
+
+    #if os(macOS) || os(iOS)
+    case adelleSansDevanagariBold = "Adelle Sans Devanagari Bold"
+    case adelleSansDevanagariExtrabold = "Adelle Sans Devanagari Extrabold"
+    case adelleSansDevanagariHeavy = "Adelle Sans Devanagari Heavy"
+    case adelleSansDevanagariLight = "Adelle Sans Devanagari Light"
+    case adelleSansDevanagariRegular = "Adelle Sans Devanagari Regular"
+    case adelleSansDevanagariSemibold = "Adelle Sans Devanagari Semibold"
+    case adelleSansDevanagariThin = "Adelle Sans Devanagari Thin"
+    #endif
+
     // MARK: American Typewriter
 
     case americanTypewriter = "AmericanTypewriter"
