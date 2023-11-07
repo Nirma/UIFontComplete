@@ -21,6 +21,7 @@
 
 import UIKit
 
+@available(iOS 11.0, *)
 extension UIFont {
     /// Create a UIFont object with a `Font` enum
     public convenience init?(font: BuiltInFont, size: CGFloat) {
@@ -35,7 +36,7 @@ extension UIFont {
     ///   - font: The font to use.
     ///   - textStyle: The text style to use.
     /// - Returns: A scaleable font object.
-    @available(iOS 11.0, *)
+
     public static func scaled(font: BuiltInFont, textStyle: UIFont.TextStyle = .body) -> UIFont? {
         let defaultSize = UIFont.preferredFont(forTextStyle: textStyle).pointSize
         guard let font = UIFont(font: font, size: defaultSize) else { return nil }
